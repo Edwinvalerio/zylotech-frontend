@@ -1,0 +1,45 @@
+.image-grid {
+  justify-content: space-evenly;
+  display: flex;
+  flex-flow: wrap;
+  max-height: 80vh;
+  overflow: scroll;
+}
+
+.dog-image-grid {
+  background-position: "center";
+  background-size: cover;
+  background-repeat: "no-repeat";
+  background-position: center;
+  max-height: 500px;
+  max-width: 500px;
+  height: 150px;
+  width: 150px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 100%;
+}
+
+.fa-trash-alt {
+  color: red;
+  font-size: 1em;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+.fa-trash-alt:hover {
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+#total-liked-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#total-liked-container {
+  color: #babecc;
+  font-size: 2em;
+}
